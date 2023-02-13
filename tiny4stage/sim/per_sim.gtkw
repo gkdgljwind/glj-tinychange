@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Feb 12 15:07:50 2023
+[*]
+[dumpfile] "/home/gordenwind/cpu/tiny5stage/sim/tinyriscv_soc_tb.vcd"
+[dumpfile_mtime] "Sun Feb 12 14:58:55 2023"
+[dumpfile_size] 48788881
+[savefile] "/home/gordenwind/cpu/tiny5stage/sim/per_sim.gtkw"
+[timestart] 499877630
+[size] 2145 590
+[pos] 118 34
+*-13.844241 499974690 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tinyriscv_soc_tb.
+[treeopen] tinyriscv_soc_tb.tinyriscv_soc_top_0.
+[treeopen] tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.
+[treeopen] tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_if_id.
+[sst_width] 233
+[signals_width] 202
+[sst_expanded] 1
+[sst_vpaned_height] 142
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.clk
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_if_id.inst_i[31:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_addr_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_data_i[31:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_data_o[31:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_we_i
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.raddr1_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.raddr2_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.rdata1_o[31:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.rdata2_o[31:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.rst
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.waddr_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.wdata_i[31:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.we_i
+[pattern_trace] 1
+[pattern_trace] 0
