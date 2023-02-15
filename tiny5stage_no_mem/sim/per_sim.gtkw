@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Feb 15 03:05:39 2023
+[*]
+[dumpfile] "/home/gordenwind/cpu/tiny5stage/sim/tinyriscv_soc_tb.vcd"
+[dumpfile_mtime] "Wed Feb 15 03:05:33 2023"
+[dumpfile_size] 86504
+[savefile] "/home/gordenwind/cpu/tiny5stage/sim/per_sim.gtkw"
+[timestart] 28780
+[size] 2144 590
+[pos] 129 78
+*-13.844241 115990 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tinyriscv_soc_tb.
+[treeopen] tinyriscv_soc_tb.tinyriscv_soc_top_0.
+[treeopen] tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.
+[treeopen] tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_if_id.
+[sst_width] 233
+[signals_width] 227
+[sst_expanded] 1
+[sst_vpaned_height] 295
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.clk
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_if_id.inst_i[31:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_addr_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_data_i[31:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_data_o[31:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.jtag_we_i
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.raddr1_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.raddr2_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.rdata1_o[31:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.rdata2_o[31:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.rst
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.waddr_i[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.wdata_i[31:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.we_i
+@22
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_ex.reg_waddr_o[4:0]
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.ex_mem_reg_waddr_o[4:0]
+@28
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.reg1_exforward_flag_i
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.reg1_memforward_flag_i
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.reg2_exforward_flag_i
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.reg2_memforward_flag_i
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_regs.reg1_exforward_flag_i
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_ex_mem.reg1_exforward_flag
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_ex_mem.reg2_exforward_flag
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_mem_wb.reg2_memforward_flag
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_mem_wb.reg2_memforward_flag_o
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_mem_wb.reg2_memforward_flag
+@29
+tinyriscv_soc_tb.tinyriscv_soc_top_0.u_tinyriscv.u_mem_wb.reg2_memforward_flag_o
+[pattern_trace] 1
+[pattern_trace] 0
