@@ -1,0 +1,68 @@
+
+lh指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-lh.bin inst.data
+
+
+
+mul指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32um-p-mul.bin inst.data
+
+
+
+sh指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-sh.bin inst.data
+
+
+
+
+bgeu指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-bgeu.bin inst.data
+
+fence.i指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-fence_i.bin inst.data
+
+
+sb指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-sb.bin inst.data
+
+jalr指令测试
+
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-jalr.bin inst.data
+
+
+旧的指令测试
+python ./sim_new_nowave.py ../tests/isa/generated/rv32ui-p-add.bin inst.data
+
+所有指令测试
+python ./test_all_isa.py
+
+复杂指令测试
+add
+
+python ./compliance_test.py ../../tests/riscv-compliance/build_generated/rv32i/I-ADD-01.elf.bin inst.data
+
+
+C语言
+python ./sim_new_nowave.py ../tests/example/simple/simple.bin inst.data
+
+求最大公约数
+python ./sim_new_nowave.py ../tests/example/max/simple.bin inst.data
+
+快速排序
+python ./sim_new_nowave.py ../tests/example/quick_sort/simple.bin inst.data
+
+图算法中的最短路径算法
+python ./sim_new_nowave.py ../tests/example/floyd/simple.bin inst.data
+
+
+
+    mem_wdata_o,        // 写内存数据
+    mem_raddr_o,    // 读内存地址
+    mem_waddr_o,    // 写内存地址
+    mem_we_o,                   // 是否要写内存
+    mem_req_o,                  // 请求访问内存标志
+
+    reg_wdata_o,       // 写寄存器数据
+     reg_we_o,                   // 是否要写通用寄存器
+    reg_waddr_o,   // 写通用寄存器地址
+
